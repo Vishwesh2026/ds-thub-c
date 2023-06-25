@@ -1,0 +1,19 @@
+Alogrithm for insertion in a BST
+Step1:
+check if the root=NULL,if so make root=nn
+Step2:
+set temp=root
+run an infinite loop 
+At each interation check 
+       if nn-> data == temp -> data
+            if so print already present in tree and break
+       else if nn-> data > temp -> data
+            check if temp -> right == NULL
+                 if so insert nn at temp->right and break
+            else 
+                 set temp=temp->right
+       else 
+            check if temp->left ==NULL
+                  if so insert nn at temp-> left and break
+            else 
+                  set temp=temp->left

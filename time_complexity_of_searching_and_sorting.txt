@@ -1,0 +1,46 @@
+Insertion sort:
+In the best case, the time complexity of Insertion Sort is
+O(n).
+In the worst case, the time complexity of Insertion Sort is
+O(n^2).
+
+
+Merge sort:
+The time complexity of Merge Sort in the best case and
+worst case is O(nlogn).
+
+Quick sort :
+The time complexity of Quick Sort in the best case is
+O(nlogn).
+In the worst case, the time complexity is O(n^2).
+
+
+Bubble sort:
+In the best case, the time complexity of Bubble Sort is
+O(n).
+In the worst case, the time complexity of Bubble Sort is
+O(n^2).
+
+
+Radix sort:
+Best Case Time Complexity: O(d * n)
+In the best case scenario, where the range of possible values for each element is relatively small compared to the number of elements, the time complexity of radix sort simplifies to O(d * n). This occurs when the algorithm can efficiently sort the elements without requiring many passes or iterations.
+
+Worst Case Time Complexity: O(d * (n + k))
+In the worst case scenario, where the range of possible values for each element is significantly larger compared to the number of elements, the time complexity of radix sort is expressed as O(d * (n + k)). This occurs when the algorithm needs to perform multiple passes to distribute and collect elements across different digit positions.
+
+It's important to note that the time complexity of radix sort is also affected by the number of digits or passes required to sort the elements, denoted by 'd'. The actual performance of the algorithm can vary depending on the specific input data and implementation details.
+
+
+
+
+linear search:
+The time complexity of Linear Search in the best case is O(1).
+The time complexity of Linear Search in the worst case is
+O(n).
+
+binary search:
+The time complexity of Binary Search in the best case is O(1).
+In the worst case, the time complexity is O(log n).
+
+ 

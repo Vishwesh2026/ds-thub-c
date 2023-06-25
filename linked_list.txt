@@ -1,0 +1,10 @@
+Linked List:
+Linked list is a linear data structure.
+Insertions and Deletion are hard to perform on array.
+Linked lists let us perform insertions and deletions easily when compared
+to arrays.We can form a linked lists using nodes that are connected to each
+other using references(addresses)
+Prerequisites:
+Structures
+Self-referrentail Structures
+Pointers to structure

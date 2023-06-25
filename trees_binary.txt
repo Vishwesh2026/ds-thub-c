@@ -1,0 +1,29 @@
+Conversion of an array to a binary tree 
+Step1:
+        Take a queue of TreeNode pointers 
+            TreeNode *q[100];
+Step2:
+        Take 2 variables front and rear and set them 0
+Step3:
+        Create a new tree node with the firstt
+        value in the array  and put it in the queue
+Step4:
+        Take a variable i to run on the  array 
+        and set it to 0
+Step5:
+    Run a infinite loop
+        check if 2*i+1>=n or 2*i+2>=n
+            if so break
+        if 2*i+1<n
+             then create a node with the value 
+             at 2*i+1<n index and add it to queue
+             connet the created node at the LEFT
+             part of front node in the queue
+        if 2*i+2<n 
+             then create a node with the value 
+             at 2*i+1<n index and add it to queue
+             connet the created node at the RIGHT
+             part of front node in the queue
+ move front towards right(front++)
+ move i towards right in the array(i++)
+
