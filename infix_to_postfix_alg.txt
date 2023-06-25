@@ -1,0 +1,17 @@
+Step1: Take a stack and a Postfix string.
+Step2: Run a loop through Infix string.
+Step3:If the character is an OPERAND add it to the postfix string.
+      Else
+      If Stack is empty push the operator into the Stack.
+       Else 
+       Run a loop till
+       top!= -1 && prec(infix[i]) <= prec(stack[top])
+       pop the elment from the stack and add it to postfix string.
+      After the end of the loop
+       push infix[i] into the Stack 
+Step4: 
+    Add the remaining operators in the stack to postfix string.
+
+
+
+      
